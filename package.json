@@ -1,14 +1,22 @@
 {
-  "name": "static-site",
+  "name": "readme-generator-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an application that generates a readme file for the user",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Christian",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "8.2.4"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christianmsm/Node-README-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Christianmsm/Node-README-Generator/issues"
+  },
+  "homepage": "https://github.com/Christianmsm/Node-README-Generator#readme"
 }
