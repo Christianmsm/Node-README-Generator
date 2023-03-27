@@ -24,27 +24,28 @@ function renderLicenseLink(license) {
 
 // // TODO: Create a function that returns the license section of README
 // // If there is no license, return an empty string
-// function renderLicenseSection(license) {
-//   const licenseLinks = {
-//           mit: '[MIT](https://opensource.org/license/mit/)',
-//           apache: '[APACHE 2.0](https://opensource.org/license/apache-2-0/)',
-//           agplv3: '[AGPL-v3](https://opensource.org/license/agpl-v3/)',
-//           bsd: '[BSD](https://opensource.org/license/bsd-3-clause/)'
-//         }
-//         return licenseLinks[license]
-// }
+function renderLicenseSection(license) {
+  const licenseLinks = {
+          mit: '[MIT](https://opensource.org/license/mit/)',
+          apache: '[APACHE 2.0](https://opensource.org/license/apache-2-0/)',
+          agplv3: '[AGPL-v3](https://opensource.org/license/agpl-v3/)',
+          bsd: '[BSD](https://opensource.org/license/bsd-3-clause/)'
+        }
+        return licenseLinks[license]
+}
 
 // // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-# ${data.title}
+#${data.project}
 
  ##Table of Contents
  - [Project Description](#Description)
  - [Usage](#Usage)
  - [Installation](#Installation)
  - [Contribution](#Contribution)
- - [Contact](#Contact)
+ - [GitHub] (#GitHub)
+ - [Email](#Email)
  - [License](#License)
   
 ## Description
@@ -52,17 +53,25 @@ ${data.description}
 ## Usage
 ${data.usage}
 ## Installation
-${data.install}
+${data.installation}
 ## Contribution
 ${data.contribute}
-## Contact
-${data.contact}
+## GitHub
+${data.github}
+## Email
+${data.email}
 ##License
 ${data.license}
  `
 }
 
 module.exports = generateMarkdown;
+
+
+
+
+
+
 
 
 
