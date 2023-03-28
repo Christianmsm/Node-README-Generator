@@ -4,7 +4,9 @@
   "description": "This is an application that generates a readme file for the user",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "quicksave": "git add . && git commit -m \"quicksave\" && git push "
   },
   "author": "Christian",
   "license": "ISC",
