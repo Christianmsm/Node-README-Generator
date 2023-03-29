@@ -81,31 +81,3 @@ ${data.license}
 }
 
 module.exports = generateMarkdown;
-
- // const badges = {
-  //   mit: '[![License: MIT](https://img.shields.io/badge/License-MIT-yello.svg)](https://opensource.org/license/mit/)',
-  //   apache: '[![License: APACHE 2.0](https://img.shields.io/crates/l/ap)](https://opensource.org/license/apache-2-0/)',
-  //   agplv3: '[![License: AGPL-v3](https://img.shields.io/eclipse-marketplace/l/notepad4e)](https://opensource.org/license/agpl-v3/)',
-  //   bsd: '[![License: BSD](https://img.shields.io/pypi/l/so)](https://opensource.org/license/bsd-3-clause/)'
-  // }
-  // return badges[license]
-
-  // function renderLicenseLink(license) {
-  //   const licenseLinks = {
-  //     mit: '[MIT](https://opensource.org/license/mit/)',
-  //     apache: '[APACHE 2.0](https://opensource.org/license/apache-2-0/)',
-  //     agplv3: '[AGPL-v3](https://opensource.org/license/agpl-v3/)',
-  //     bsd: '[BSD](https://opensource.org/license/bsd-3-clause/)'
-  //   }
-  //   return licenseLinks[license]
-  // }
-  
-  // function renderLicenseSection(license) {
-  //   const licenseLinks = {
-  //           mit: '[MIT](https://opensource.org/license/mit/)',
-  //           apache: '[APACHE 2.0](https://opensource.org/license/apache-2-0/)',
-  //           agplv3: '[AGPL-v3](https://opensource.org/license/agpl-v3/)',
-  //           bsd: '[BSD](https://opensource.org/license/bsd-3-clause/)'
-  //         }
-  //         return licenseLinks[license]
-  // }
