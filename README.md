@@ -19,8 +19,10 @@ Do git pulls
 nope
 ## Contribution
 Do git pulls
+## Walkthrough
+https://drive.google.com/file/d/1clYY0adUFFj5l9Faq49vFbB3P6Jq3J-Z/view
 ## GitHub
-Christianmsm
+https://github.com/Christianmsm
 ## Email
 hello@itschristiansmith.com
 ## License
